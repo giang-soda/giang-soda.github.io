@@ -3,8 +3,20 @@
     "toggle": "Chuyển đổi chủ đề"
   },
   "actions": {
+    "submit": "Gửi",
+    "save": "Lưu",
     "goToHome": "Về trang chủ",
-    "refreshPage": "Tải lại trang"
+    "refreshPage": "Tải lại trang",
+    "actions": "Thao tác",
+    "create": "Tạo mới",
+    "cancel": "Hủy",
+    "delete": "Xóa"
+  },
+  "pagination": {
+    "nodata": "Không có dữ liệu",
+    "loading": "Đang tải...",
+    "reload": "Tải lại",
+    "reloadSuccess": "Tải lại thành công"
   },
   "errors": {
     "403": {
@@ -25,5 +37,10 @@
       "title": "Website đang bảo trì!",
       "description": "Trang web hiện không khả dụng. <br /> Chúng tôi sẽ quay trở lại sớm."
     }
+  },
+  "delete": {
+    "title": "Xóa dữ liệu",
+    "error": "Lỗi xóa dữ liệu",
+    "success": "Xóa dữ liệu thành công"
   }
 }
