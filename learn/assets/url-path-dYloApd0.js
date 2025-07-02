@@ -1,0 +1,1 @@
+const e={THEME:"theme",LANGUAGE:"lang",ACCESS_TOKEN:"access_token"},a={USER_LIST:"ul",USER_DETAIL:"ud"},E="/learn/",A={HOME:`${E}`,DASHBOARD:`${E}dashboard`,AUTH:{LOGIN:`${E}auth/login`},USERS:{LIST:`${E}users`,CREATE:`${E}users/create`,EDIT:s=>`${E}users/${s}`},EDITOR:{CKEDITOR:`${E}editor/ckeditor`}};export{E as B,a as K,A as U,e as a};

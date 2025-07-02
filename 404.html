@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect | Giang Soda</title>
     <script>
-      // Get the current pathname without leading slash
       const path = window.location.pathname.substring(1);
-      // Split the path by slashes and get the first segment
       const firstSegment = path.split('/')[0];
-      
-      // If there is a first segment, redirect to it
-      if (firstSegment) {
+      const listPage = [
+        'learn',
+        'shop-japan'
+      ]
+      if (firstSegment && listPage.includes(firstSegment)) {
         window.location.href = '/' + firstSegment;
-      } else {
-        // If no subpath exists, redirect to home
-        window.location.href = '/';
+        return;
       }
+
+      const listPageElement = document.getElementById('list-page');
+      listPageElement.innerHTML = listPage.map(page => `<li><a href="/${page}">${page}</a></li>`).join('');
     </script>
 </head>
 <body>
-    <h1>Redirecting...</h1>
+    <ul id="list-page"></ul>
 </body>
 </html>
