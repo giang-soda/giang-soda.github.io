@@ -1,1 +1,0 @@
-import{w as o}from"./chunk-QMGIS6GS-CAbI30z5.js";import{j as t}from"./jsx-runtime-D_zvdyIk.js";import r from"./Dashboard-V4qvytMi.js";import"./utils-B8JRlTp4.js";function s(){return[{title:"Dashboard"},{name:"description",content:"Dashboard"}]}const p=o(function(){return t.jsx(r,{})});export{p as default,s as meta};
