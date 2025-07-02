@@ -10,8 +10,9 @@
 
     <script defer>
       function init() {
-        const paths = window.location.pathname.substring(1).split('/');
-        const firstSegment = paths[0];
+        const pathStr = window.location.pathname.substring(1);
+        const pathArr = pathStr.split('/')
+        const firstSegment = pathArr[0];
         const listPage = [
           'learn',
           'shop-japan'
@@ -20,8 +21,8 @@
         if (firstSegment && listPage.includes(firstSegment)) {
           let redirectUrl = '/' + firstSegment;
 
-          if (paths.length > 1) {
-            redirectUrl += '?redirect=' + paths.slice(1).join('/');
+          if (pathArr.length > 1) {
+            redirectUrl += '?redirect=' + pathArr.slice(1).join('/');
           }
 
           window.location.href = redirectUrl;
