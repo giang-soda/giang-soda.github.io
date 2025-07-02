@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirect | Giang Soda</title>
     <script>
-      const path = window.location.pathname.substring(1);
-      const firstSegment = path.split('/')[0];
-      const listPage = [
-        'learn',
-        'shop-japan'
-      ]
-      if (firstSegment && listPage.includes(firstSegment)) {
-        window.location.href = '/' + firstSegment;
-        return;
+      function init() {
+        const path = window.location.pathname.substring(1);
+        const firstSegment = path.split('/')[0];
+        const listPage = [
+          'learn',
+          'shop-japan'
+        ]
+
+        if (firstSegment && listPage.includes(firstSegment)) {
+          window.location.href = '/' + firstSegment;
+          return;
+        }
+
+        const listPageElement = document.getElementById('list-page');
+        listPageElement.innerHTML = listPage.map(page => `<li><a href="/${page}">${page}</a></li>`).join('');
       }
 
-      const listPageElement = document.getElementById('list-page');
-      listPageElement.innerHTML = listPage.map(page => `<li><a href="/${page}">${page}</a></li>`).join('');
+      init();
+      
     </script>
 </head>
 <body>
