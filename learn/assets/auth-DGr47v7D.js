@@ -1,0 +1,1 @@
+import{K as t}from"./key-cache-C3Pdtmyz.js";import{i as o}from"./utils-BZSh1A4I.js";const m=e=>e===!0||o()?localStorage.getItem(t.ACCESS_TOKEN):null,S=(e,r)=>{localStorage.setItem(t.ACCESS_TOKEN,e)},i=e=>{(e===!0||o())&&localStorage.removeItem(t.ACCESS_TOKEN)};export{m as g,i as r,S as s};
