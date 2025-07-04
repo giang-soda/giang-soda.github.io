@@ -1,0 +1,1 @@
+import{w as o,N as t}from"./chunk-QMGIS6GS-6uWjcyoF.js";import{j as r}from"./jsx-runtime-D_zvdyIk.js";import{m}from"./utils-BZSh1A4I.js";import{r as a}from"./auth-7F1Hx8zE.js";import{U as e}from"./url-path-Beq2zZoZ.js";const g=()=>m("Logout"),L=o(function(){return a(!0),r.jsx(t,{to:e.ADMIN.AUTH.LOGIN})});export{L as default,g as meta};
