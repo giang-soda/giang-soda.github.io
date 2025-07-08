@@ -1,0 +1,1 @@
+import{w as o}from"./chunk-QMGIS6GS-CCE_czqQ.js";import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{a as m}from"./utils-BA6gyYTm.js";import{C as r}from"./ClientComponent-Dj8RX5cu.js";import"./preload-helper-B6OyRjpI.js";import"./loader-circle-LKSEXaXr.js";const f=()=>m("404"),l=o(function(){return t.jsx(r,{componentPath:"errors/404Client"})});export{l as default,f as meta};
