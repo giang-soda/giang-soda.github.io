@@ -1,0 +1,1 @@
+import{w as o}from"./chunk-QMGIS6GS-DZztEkVs.js";import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{a as m}from"./utils-BA6gyYTm.js";import{C as r}from"./ClientComponent-DCGFJxP_.js";import"./preload-helper-B6OyRjpI.js";import"./loader-circle-CzWM3YVe.js";const C=()=>m("503"),c=o(function(){return t.jsx(r,{componentPath:"errors/503Client"})});export{c as default,C as meta};

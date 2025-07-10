@@ -1,0 +1,1 @@
+import{w as o}from"./chunk-QMGIS6GS-DZztEkVs.js";import{j as m}from"./jsx-runtime-D_zvdyIk.js";import{m as t}from"./utils-BA6gyYTm.js";import r from"./Dashboard-DX0zb1BB.js";const p=()=>t("Home"),f=o(function(){return m.jsx(r,{})});export{f as default,p as meta};
