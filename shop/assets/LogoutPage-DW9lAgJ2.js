@@ -1,0 +1,1 @@
+import{w as t,u as a,r}from"./chunk-QMGIS6GS-DZztEkVs.js";import{m as e}from"./utils-D1ivxlLM.js";import{r as m}from"./auth-Dd4vsUy7.js";import{U as s}from"./url-path-Bgy9PlGf.js";import"./local-storage-DWUcO9io.js";const c=()=>e("Logout"),L=t(function(){m(!0);const o=a();return r.useEffect(()=>{o(s.ADMIN.AUTH.LOGIN)},[o]),null});export{L as default,c as meta};

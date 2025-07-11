@@ -1,0 +1,1 @@
+import{g as r,K as t,r as o,s as a}from"./local-storage-DWUcO9io.js";import{i as s}from"./utils-D1ivxlLM.js";const E=e=>e===!0||s()?r(t.ACCESS_TOKEN):null,S=(e,m)=>{a(t.ACCESS_TOKEN,e)},A=e=>{(e===!0||s())&&o(t.ACCESS_TOKEN)};export{E as g,A as r,S as s};

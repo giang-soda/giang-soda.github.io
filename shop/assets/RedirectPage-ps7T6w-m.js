@@ -1,0 +1,1 @@
+import{w as a,a as o,u as s,r as i}from"./chunk-QMGIS6GS-DZztEkVs.js";import{U as c}from"./url-path-Bgy9PlGf.js";import{a as n}from"./utils-D1ivxlLM.js";const d=()=>n("Redirect"),g=a(function(){const[r]=o(),t=s(),e=r.get("path");return i.useEffect(()=>{e&&t(c.HOME+e.replace(/^[/]*/g,""))},[t,e]),e?null:"redirecting..."});export{g as default,d as meta};

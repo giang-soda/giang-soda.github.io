@@ -1,0 +1,1 @@
+const o={THEME:"theme",LANGUAGE:"lang"},E={ACCESS_TOKEN:"ad_access_token"},a={USER_LIST:"ul",USER_DETAIL:"ud"},s=()=>typeof window>"u"?null:localStorage,c=t=>{var e;return(e=s())==null?void 0:e.getItem(t)},r=(t,e)=>{var n;(n=s())==null||n.setItem(t,e)},I=t=>{var e;(e=s())==null||e.removeItem(t)};export{E as K,a,o as b,c as g,I as r,r as s};
